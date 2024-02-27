@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS VARIABLES </title>
+</head>
+
+<body>
+    <h1 class="heading" id="heading">CSS VARIABLES</h1>
+    <div class="containers">
+
+        <div class="inputs-container" id="inputs">
+            <div>
+                <label for="spacing" class="spacing">Spacing</label>
+                <input type="range" id="spacing" name="spacing" class="inputs" max="100" min=" 5" value="10" data-sizing="px">
+
+            </div>
+            <div>
+                <label for="blur" class="blur">Blur</label>
+                <input type="range" id="blur" name="blur" class="inputs" max="20" min="0" value="0" data-sizing="px">
+            </div>
+            <div>
+                <label for="color" class="color">Color</label>
+                <input type="range" id="color" name="base" class="inputs" value="#ffffff">
+
+            </div>
+        </div>
+        <div class="container" id="container">
+            <img src="assets/bellie.jpg" alt="bellie eillish" class="image" id="image">
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
